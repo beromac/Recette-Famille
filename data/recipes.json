@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T16:28:58.812Z",
+  "updatedAt": "2026-10-21T16:30:17.673Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -168,7 +168,7 @@
       "description": "",
       "servings": 25,
       "servingsLabel": "crêpes",
-      "prepMin": 5,
+      "prepMin": 30,
       "cookMin": 0,
       "restMin": 60,
       "difficulty": 1,
@@ -230,7 +230,7 @@
       "tags": [],
       "author": "",
       "createdAt": "2026-10-21T16:28:56.340Z",
-      "updatedAt": "2026-10-21T16:28:56.340Z",
+      "updatedAt": "2026-10-21T16:30:15.375Z",
       "photo": "images/crepes-mvibu5jo.jpg"
     }
   ]

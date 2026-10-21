@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T16:30:17.673Z",
+  "updatedAt": "2026-10-21T17:50:53.792Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -189,7 +189,7 @@
           "name": "de Sucre"
         },
         {
-          "qty": 100,
+          "qty": 60,
           "unit": "g",
           "name": "de Beurre"
         },
@@ -230,7 +230,7 @@
       "tags": [],
       "author": "",
       "createdAt": "2026-10-21T16:28:56.340Z",
-      "updatedAt": "2026-10-21T16:30:15.375Z",
+      "updatedAt": "2026-10-21T17:50:53.273Z",
       "photo": "images/crepes-mvibu5jo.jpg"
     }
   ]

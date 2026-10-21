@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T12:00:00.000Z",
+  "updatedAt": "2026-10-21T16:28:58.812Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -16,14 +16,43 @@
       "cost": 1,
       "oven": "",
       "ingredients": [
-        { "qty": 250, "unit": "g", "name": "farine" },
-        { "qty": 3, "unit": "", "name": "œufs" },
-        { "qty": 0.5, "unit": "L", "name": "lait" },
-        { "qty": 1, "unit": "c. à soupe", "name": "sucre" },
-        { "qty": 1, "unit": "pincée", "name": "sel" },
-        { "qty": 30, "unit": "g", "name": "beurre fondu" }
+        {
+          "qty": 250,
+          "unit": "g",
+          "name": "farine"
+        },
+        {
+          "qty": 3,
+          "unit": "",
+          "name": "œufs"
+        },
+        {
+          "qty": 0.5,
+          "unit": "L",
+          "name": "lait"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à soupe",
+          "name": "sucre"
+        },
+        {
+          "qty": 1,
+          "unit": "pincée",
+          "name": "sel"
+        },
+        {
+          "qty": 30,
+          "unit": "g",
+          "name": "beurre fondu"
+        }
       ],
-      "equipment": ["saladier", "fouet", "poêle à crêpes", "louche"],
+      "equipment": [
+        "saladier",
+        "fouet",
+        "poêle à crêpes",
+        "louche"
+      ],
       "steps": [
         "Mélange la farine, le sucre et le sel dans un saladier. Fais un puits au centre.",
         "Casse les œufs dans le puits et mélange doucement en versant le lait petit à petit pour éviter les grumeaux.",
@@ -34,7 +63,11 @@
       "tips": "Si la pâte est trop épaisse, ajoute un peu de lait. Le premier essai sert souvent de test !",
       "storage": "2 jours au frigo, ou congelées séparées par du papier cuisson.",
       "nutrition": "",
-      "tags": ["rapide", "enfants", "classique"],
+      "tags": [
+        "rapide",
+        "enfants",
+        "classique"
+      ],
       "author": "Mamie",
       "photo": "",
       "createdAt": "2026-10-21T12:00:00.000Z",
@@ -55,18 +88,59 @@
       "cost": 1,
       "oven": "180 °C",
       "ingredients": [
-        { "section": "La pâte" },
-        { "qty": 1, "unit": "", "name": "pâte brisée" },
-        { "section": "L'appareil" },
-        { "qty": 200, "unit": "g", "name": "lardons fumés" },
-        { "qty": 3, "unit": "", "name": "œufs" },
-        { "qty": 20, "unit": "cl", "name": "crème fraîche" },
-        { "qty": 20, "unit": "cl", "name": "lait" },
-        { "qty": 100, "unit": "g", "name": "gruyère râpé" },
-        { "qty": 1, "unit": "pincée", "name": "noix de muscade" },
-        { "qty": 1, "unit": "pincée", "name": "poivre" }
+        {
+          "section": "La pâte"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "name": "pâte brisée"
+        },
+        {
+          "section": "L'appareil"
+        },
+        {
+          "qty": 200,
+          "unit": "g",
+          "name": "lardons fumés"
+        },
+        {
+          "qty": 3,
+          "unit": "",
+          "name": "œufs"
+        },
+        {
+          "qty": 20,
+          "unit": "cl",
+          "name": "crème fraîche"
+        },
+        {
+          "qty": 20,
+          "unit": "cl",
+          "name": "lait"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "gruyère râpé"
+        },
+        {
+          "qty": 1,
+          "unit": "pincée",
+          "name": "noix de muscade"
+        },
+        {
+          "qty": 1,
+          "unit": "pincée",
+          "name": "poivre"
+        }
       ],
-      "equipment": ["moule à tarte", "saladier", "fouet", "poêle"],
+      "equipment": [
+        "moule à tarte",
+        "saladier",
+        "fouet",
+        "poêle"
+      ],
       "steps": [
         "Préchauffe le four à 180 °C. Étale la pâte dans le moule et pique le fond avec une fourchette.",
         "Fais revenir les lardons à la poêle 3 minutes, sans matière grasse. Égoutte-les sur du papier absorbant.",
@@ -77,11 +151,87 @@
       "tips": "Précuis la pâte 10 minutes à blanc pour qu'elle reste bien croustillante.",
       "storage": "3 jours au frigo, se réchauffe très bien au four.",
       "nutrition": "",
-      "tags": ["classique", "four"],
+      "tags": [
+        "classique",
+        "four"
+      ],
       "author": "Papa/Maman",
       "photo": "",
       "createdAt": "2026-10-21T12:01:00.000Z",
       "updatedAt": "2026-10-21T12:01:00.000Z"
+    },
+    {
+      "id": "crepes-mvibu5jo",
+      "title": "Crêpes",
+      "category": "sucre",
+      "type": "Goûter",
+      "description": "",
+      "servings": 25,
+      "servingsLabel": "crêpes",
+      "prepMin": 5,
+      "cookMin": 0,
+      "restMin": 60,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "",
+      "ingredients": [
+        {
+          "section": "Pour la pâte"
+        },
+        {
+          "qty": 250,
+          "unit": "g",
+          "name": "de Farine"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "de Sucre"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "de Beurre"
+        },
+        {
+          "qty": 7,
+          "unit": "",
+          "name": "Oeufs"
+        },
+        {
+          "qty": 1,
+          "unit": "L",
+          "name": "de Lait"
+        },
+        {
+          "qty": null,
+          "unit": "",
+          "name": "Arôme : Rhum, vanille, fleur d'orangers"
+        }
+      ],
+      "equipment": [
+        "Un grand saladier",
+        "un petit bol",
+        "un fouet",
+        "une balance"
+      ],
+      "steps": [
+        "Met a chauffer le lait avec le beurre a feu très doux (ne surtout pas faire bouillir)",
+        "Mélange la farine et le sucre dans le grand saladier",
+        "Bat en omelette les œufs et l'arôme dans le petit bol",
+        "Verse l'omelette dans le grand saladier avec la farine et mélange doucement en incorporant petit à petit la farine qui est sur les bords pour éviter de faire des grumeaux",
+        "Verse petit à petit le lait tiède avec le beurre fondue dans la préparation en suivant la même méthode que précédemment",
+        "Laisse reposer minimum 1H au frigo",
+        "Dans une poêle à crêpes bien chaude verser la préparation et faire les crêpes"
+      ],
+      "tips": "",
+      "storage": "",
+      "nutrition": "",
+      "tags": [],
+      "author": "",
+      "createdAt": "2026-10-21T16:28:56.340Z",
+      "updatedAt": "2026-10-21T16:28:56.340Z",
+      "photo": "images/crepes-mvibu5jo.jpg"
     }
   ]
 }

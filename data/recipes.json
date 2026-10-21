@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T17:54:08.510Z",
+  "updatedAt": "2026-10-21T17:55:59.116Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -228,9 +228,9 @@
       "storage": "",
       "nutrition": "",
       "tags": [],
-      "author": "",
+      "author": "Papa",
       "createdAt": "2026-10-21T16:28:56.340Z",
-      "updatedAt": "2026-10-21T17:50:53.273Z",
+      "updatedAt": "2026-10-21T17:55:56.103Z",
       "photo": "images/crepes-mvibu5jo.jpg"
     }
   ]

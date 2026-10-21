@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T17:50:53.792Z",
+  "updatedAt": "2026-10-21T17:54:08.510Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -156,9 +156,9 @@
         "four"
       ],
       "author": "Papa/Maman",
-      "photo": "",
+      "photo": "images/quiche-exemple.jpg",
       "createdAt": "2026-10-21T12:01:00.000Z",
-      "updatedAt": "2026-10-21T12:01:00.000Z"
+      "updatedAt": "2026-10-21T17:54:05.924Z"
     },
     {
       "id": "crepes-mvibu5jo",

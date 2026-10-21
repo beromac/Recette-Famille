@@ -1,0 +1,87 @@
+{
+  "updatedAt": "2026-10-21T12:00:00.000Z",
+  "recipes": [
+    {
+      "id": "crepes-exemple",
+      "title": "Crêpes de Mamie",
+      "category": "sucre",
+      "type": "Goûter",
+      "description": "Les crêpes toutes simples et moelleuses, parfaites pour le goûter ou la Chandeleur.",
+      "servings": 4,
+      "servingsLabel": "personnes",
+      "prepMin": 10,
+      "cookMin": 20,
+      "restMin": 60,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "",
+      "ingredients": [
+        { "qty": 250, "unit": "g", "name": "farine" },
+        { "qty": 3, "unit": "", "name": "œufs" },
+        { "qty": 0.5, "unit": "L", "name": "lait" },
+        { "qty": 1, "unit": "c. à soupe", "name": "sucre" },
+        { "qty": 1, "unit": "pincée", "name": "sel" },
+        { "qty": 30, "unit": "g", "name": "beurre fondu" }
+      ],
+      "equipment": ["saladier", "fouet", "poêle à crêpes", "louche"],
+      "steps": [
+        "Mélange la farine, le sucre et le sel dans un saladier. Fais un puits au centre.",
+        "Casse les œufs dans le puits et mélange doucement en versant le lait petit à petit pour éviter les grumeaux.",
+        "Ajoute le beurre fondu et laisse reposer la pâte 1 heure.",
+        "Fais chauffer une poêle légèrement beurrée. Verse une louche de pâte et étale-la en tournant la poêle.",
+        "Retourne la crêpe quand les bords se décollent (environ 1 minute), puis cuis l'autre face."
+      ],
+      "tips": "Si la pâte est trop épaisse, ajoute un peu de lait. Le premier essai sert souvent de test !",
+      "storage": "2 jours au frigo, ou congelées séparées par du papier cuisson.",
+      "nutrition": "",
+      "tags": ["rapide", "enfants", "classique"],
+      "author": "Mamie",
+      "photo": "",
+      "createdAt": "2026-10-21T12:00:00.000Z",
+      "updatedAt": "2026-10-21T12:00:00.000Z"
+    },
+    {
+      "id": "quiche-exemple",
+      "title": "Quiche lorraine",
+      "category": "sale",
+      "type": "Plat",
+      "description": "La grande classique : une pâte croustillante, des lardons et un appareil crémeux.",
+      "servings": 6,
+      "servingsLabel": "parts",
+      "prepMin": 20,
+      "cookMin": 35,
+      "restMin": 0,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "180 °C",
+      "ingredients": [
+        { "section": "La pâte" },
+        { "qty": 1, "unit": "", "name": "pâte brisée" },
+        { "section": "L'appareil" },
+        { "qty": 200, "unit": "g", "name": "lardons fumés" },
+        { "qty": 3, "unit": "", "name": "œufs" },
+        { "qty": 20, "unit": "cl", "name": "crème fraîche" },
+        { "qty": 20, "unit": "cl", "name": "lait" },
+        { "qty": 100, "unit": "g", "name": "gruyère râpé" },
+        { "qty": 1, "unit": "pincée", "name": "noix de muscade" },
+        { "qty": 1, "unit": "pincée", "name": "poivre" }
+      ],
+      "equipment": ["moule à tarte", "saladier", "fouet", "poêle"],
+      "steps": [
+        "Préchauffe le four à 180 °C. Étale la pâte dans le moule et pique le fond avec une fourchette.",
+        "Fais revenir les lardons à la poêle 3 minutes, sans matière grasse. Égoutte-les sur du papier absorbant.",
+        "Dans un saladier, fouette les œufs avec la crème, le lait, la muscade et le poivre. Pas besoin de sel avec les lardons !",
+        "Répartis les lardons sur la pâte, verse l'appareil et parsème de gruyère.",
+        "Enfourne 35 minutes, jusqu'à ce que la quiche soit dorée et bien prise."
+      ],
+      "tips": "Précuis la pâte 10 minutes à blanc pour qu'elle reste bien croustillante.",
+      "storage": "3 jours au frigo, se réchauffe très bien au four.",
+      "nutrition": "",
+      "tags": ["classique", "four"],
+      "author": "Papa/Maman",
+      "photo": "",
+      "createdAt": "2026-10-21T12:01:00.000Z",
+      "updatedAt": "2026-10-21T12:01:00.000Z"
+    }
+  ]
+}

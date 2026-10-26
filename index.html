@@ -176,11 +176,11 @@ $('#grid').onclick=e=>{const f=e.target.closest('[data-fav]');if(f){toggleFav(f.
 function toggleFav(id){fav.has(id)?fav.delete(id):fav.add(id);LS.set('fav',[...fav]);render();const b=$('#view [data-favbtn]');if(b&&$('#view').open)b.textContent=fav.has(id)?'♥ Favori':'♡ Favori'}
 
 /* ---------- fiche recette ---------- */
-let cur=null,curServ=4;
-function openView(id){cur=S.recipes.find(r=>r.id===id);if(!cur)return;curServ=+cur.servings||4;drawView();$('#view').showModal()}
+let cur=null,curServ=4,have=new Set();
+function openView(id){cur=S.recipes.find(r=>r.id===id);if(!cur)return;curServ=+cur.servings||4;have=new Set();drawView();$('#view').showModal()}
 function drawView(){
   const r=cur,f=curServ/(+r.servings||curServ);
-  const ings=(r.ingredients||[]).map((i,k)=>i.section!==undefined?`<li class="sec">${esc(i.section)}</li>`:`<li><input type="checkbox" id="i${k}"><label for="i${k}"><span><b>${fmtQty(i.qty!=null?i.qty*f:null)} ${esc(i.unit||'')}</b> ${esc(i.name)}${i.note?` <i style="color:var(--mute)">(${esc(i.note)})</i>`:''}</span></label></li>`).join('');
+  const ings=(r.ingredients||[]).map((i,k)=>i.section!==undefined?`<li class="sec">${esc(i.section)}</li>`:`<li class="${have.has(k)?'done':''}"><input type="checkbox" id="i${k}" ${have.has(k)?'checked':''}><label for="i${k}"><span><b>${fmtQty(i.qty!=null?i.qty*f:null)} ${esc(i.unit||'')}</b> ${esc(i.name)}${i.note?` <i style="color:var(--mute)">(${esc(i.note)})</i>`:''}</span></label></li>`).join('');
   $('#view').innerHTML=`<div class="dh"><h2>${esc(r.title)}</h2><button class="x" data-close>✕</button></div><div class="db">
   <div class="hero">${phHtml(r)}</div>
   <span class="badge ${esc(r.category)}">${r.category==='sucre'?'Sucré':'Salé'}</span> ${r.type?`<span class="meta" style="display:inline">${esc(r.type)}</span>`:''}
@@ -214,7 +214,7 @@ $('#view').onclick=e=>{
   if(t.closest('[data-cookmode]'))return cookMode();
   if(t.closest('[data-edit]')){$('#view').close();return openEdit(cur)}
   if(t.closest('[data-del]'))return delRecipe();
-  const cb=t.closest('.ing input');if(cb)cb.closest('li').classList.toggle('done',cb.checked);
+  const cb=t.closest('.ing input');if(cb){cb.closest('li').classList.toggle('done',cb.checked);const k=+cb.id.slice(1);cb.checked?have.add(k):have.delete(k)}
 };
 
 /* ---------- mode cuisine ---------- */
@@ -233,12 +233,17 @@ async function cookMode(){
 function updShopBadge(){const n=shop.filter(i=>!i.done).length;const b=$('#nShop');b.hidden=!n;b.textContent=n}
 function addShop(){
   const f=curServ/(+cur.servings||curServ);
-  (cur.ingredients||[]).filter(i=>i.name).forEach(i=>{
+  let skipped=0,added=0;
+  (cur.ingredients||[]).forEach((i,k)=>{
+    if(!i.name)return;
+    if(have.has(k)){skipped++;return}
+    added++;
     const q=i.qty!=null?i.qty*f:null;const key=(i.name+'|'+(i.unit||'')).toLowerCase();
     const ex=shop.find(x=>x.key===key&&!x.done);
     if(ex&&ex.qty!=null&&q!=null)ex.qty+=q;else if(!ex)shop.push({key,name:i.name,unit:i.unit||'',qty:q,done:false});
   });
-  LS.set('shop',shop);updShopBadge();toast('Ingrédients ajoutés à la liste de courses 🛒');
+  LS.set('shop',shop);updShopBadge();
+  toast(!added?'Tout est déjà chez toi, rien à acheter 👍':skipped?`${added} ingrédient(s) ajouté(s) aux courses 🛒 (${skipped} déjà à la maison)`:'Ingrédients ajoutés à la liste de courses 🛒');
 }
 function drawShop(){
   $('#shop').innerHTML=`<div class="dh"><h2>🛒 Liste de courses</h2><button class="x" data-close>✕</button></div><div class="db">${shop.length?`<ul class="ing">${shop.map((i,k)=>`<li class="${i.done?'done':''}"><input type="checkbox" data-k="${k}" ${i.done?'checked':''} id="s${k}"><label for="s${k}" style="flex:1"><span><b>${fmtQty(i.qty)} ${esc(i.unit)}</b> ${esc(i.name)}</span></label><button class="x" data-rm="${k}">✕</button></li>`).join('')}</ul><div class="btns"><button class="btn" data-clr="done">Retirer les cochés</button><button class="btn d" data-clr="all">Tout vider</button></div>`:'<p class="empty">Ta liste est vide.</p>'}</div>`;
@@ -318,8 +323,10 @@ async function saveRecipe(ef,old){
       const url=await resize(file);const path=`images/${rec.id}.jpg`;const ex=await getFile(path);
       await putFile(path,url.split(',')[1],`Photo : ${rec.title}`,ex?.sha);
       rec.photo=path;S.tmp[rec.id]=url;
+    }else if(!rec.photo&&old){
+      const p=`images/${rec.id}.jpg`;if(await getFile(p))rec.photo=p;
     }
-    S.recipes=await mutate(l=>{const k=l.findIndex(x=>x.id===rec.id);k>=0?l[k]=rec:l.push(rec);return l},`${old?'Modifie':'Ajoute'} : ${rec.title}`);
+    S.recipes=await mutate(l=>{const k=l.findIndex(x=>x.id===rec.id);if(!rec.photo&&k>=0&&l[k].photo)rec.photo=l[k].photo;k>=0?l[k]=rec:l.push(rec);return l},`${old?'Modifie':'Ajoute'} : ${rec.title}`);
     LS.set('cache',S.recipes);
     $('#edit').close();render();toast('✅ Enregistré ! Visible chez les enfants dans 1 à 2 minutes.',5000);
   }catch(err){toast('Erreur : '+err.message,7000);btn.disabled=false;btn.textContent='💾 Enregistrer'}

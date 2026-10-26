@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T12:09:32.581Z",
+  "updatedAt": "2026-10-26T12:10:58.826Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -330,7 +330,7 @@
           "name": "Farine"
         },
         {
-          "qty": 0.5,
+          "qty": null,
           "unit": "sachet",
           "name": "Levure"
         },
@@ -387,7 +387,8 @@
       "tags": [],
       "author": "Papa",
       "createdAt": "2026-10-26T12:09:32.055Z",
-      "updatedAt": "2026-10-26T12:09:32.055Z"
+      "updatedAt": "2026-10-26T12:10:56.424Z",
+      "photo": "images/cookies-mvp7rteg.jpg"
     }
   ]
 }

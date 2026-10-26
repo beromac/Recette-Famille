@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T17:55:59.116Z",
+  "updatedAt": "2026-10-26T10:38:40.325Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -232,6 +232,82 @@
       "createdAt": "2026-10-21T16:28:56.340Z",
       "updatedAt": "2026-10-21T17:55:56.103Z",
       "photo": "images/crepes-mvibu5jo.jpg"
+    },
+    {
+      "id": "gauffres-mvp4iwjy",
+      "title": "Gauffres",
+      "category": "sucre",
+      "type": "Gâteau",
+      "description": "",
+      "servings": 12,
+      "servingsLabel": "Gauffres",
+      "prepMin": 15,
+      "cookMin": 10,
+      "restMin": 15,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "",
+      "ingredients": [
+        {
+          "qty": 300,
+          "unit": "g",
+          "name": "Farine"
+        },
+        {
+          "qty": 75,
+          "unit": "g",
+          "name": "Sucre"
+        },
+        {
+          "qty": 10,
+          "unit": "g",
+          "name": "Levure chimique"
+        },
+        {
+          "qty": 50,
+          "unit": "cl",
+          "name": "Lait à T°ambiante"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "name": "Peufs"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "name": "Beurre"
+        },
+        {
+          "qty": null,
+          "unit": "",
+          "name": "Arôme rhum/fleurs d orangers"
+        }
+      ],
+      "equipment": [
+        "Saldier",
+        "fouet",
+        "gauffrier"
+      ],
+      "steps": [
+        "Séparer les blancs des jaunes des oeufs",
+        "Battre les blancs en neige bien ferme",
+        "Faire fondre le beurre dans le lait à feu doux sans faire bouillir",
+        "Fouetter le sucre+jaunes d oeufs jusqu'à les faire blanchir fans le saladier",
+        "Rajouter la farine +la levure+les arômes et fouetter",
+        "Verser le lait avec le beurre fondue et fouetter jusqu'à avoir une pâte lisse et FROIDE",
+        "Incorporer délicatement les blancs en neige",
+        "Laisser reposer",
+        "Graisser les plaques avant de cuire les gauffres"
+      ],
+      "tips": "",
+      "storage": "",
+      "nutrition": "",
+      "tags": [],
+      "author": "Papa",
+      "createdAt": "2026-10-26T10:38:37.383Z",
+      "updatedAt": "2026-10-26T10:38:37.383Z",
+      "photo": "images/gauffres-mvp4iwjy.jpg"
     }
   ]
 }

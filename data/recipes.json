@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T10:38:40.325Z",
+  "updatedAt": "2026-10-26T11:57:59.597Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -271,7 +271,7 @@
         {
           "qty": 2,
           "unit": "",
-          "name": "Peufs"
+          "name": "Oeufs"
         },
         {
           "qty": 60,
@@ -306,7 +306,7 @@
       "tags": [],
       "author": "Papa",
       "createdAt": "2026-10-26T10:38:37.383Z",
-      "updatedAt": "2026-10-26T10:38:37.383Z",
+      "updatedAt": "2026-10-26T11:57:55.819Z",
       "photo": "images/gauffres-mvp4iwjy.jpg"
     }
   ]

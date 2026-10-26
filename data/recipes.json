@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T11:57:59.597Z",
+  "updatedAt": "2026-10-26T12:09:32.581Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -308,6 +308,86 @@
       "createdAt": "2026-10-26T10:38:37.383Z",
       "updatedAt": "2026-10-26T11:57:55.819Z",
       "photo": "images/gauffres-mvp4iwjy.jpg"
+    },
+    {
+      "id": "cookies-mvp7rteg",
+      "title": "Cookies",
+      "category": "sucre",
+      "type": "Gâteau",
+      "description": "",
+      "servings": 20,
+      "servingsLabel": "Gâteaux",
+      "prepMin": 10,
+      "cookMin": 25,
+      "restMin": 0,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "150 chaleur tournante",
+      "ingredients": [
+        {
+          "qty": 220,
+          "unit": "g",
+          "name": "Farine"
+        },
+        {
+          "qty": 0.5,
+          "unit": "sachet",
+          "name": "Levure"
+        },
+        {
+          "qty": 130,
+          "unit": "g",
+          "name": "Garniture( chocolat, noix....)"
+        },
+        {
+          "qty": 2,
+          "unit": "c. à café",
+          "name": "Vanille"
+        },
+        {
+          "qty": 120,
+          "unit": "g",
+          "name": "Sucre roux"
+        },
+        {
+          "qty": 20,
+          "unit": "g",
+          "name": "Sucre blanc"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "name": "Compote"
+        },
+        {
+          "qty": 120,
+          "unit": "g",
+          "name": "Beurre mou"
+        }
+      ],
+      "equipment": [
+        "Saldier",
+        "fouet",
+        "spatule",
+        "boule à glace",
+        "papier sulfurisé"
+      ],
+      "steps": [
+        "Mélanger le beurre et les sucres en pommade ( au fouet la texture doit être lisse et crémeuse)",
+        "Y ajouter la compote et la vanille, fouetter",
+        "Ajouter la farine et la levure puiqs fouetter",
+        "Ajouter la garniture et mélanger",
+        "Laisser au repos au frigo et mettre le four en température",
+        "Quand le four est chaud, faire des boules avec la boule à glace et légèrement applatir les boules, sur une plaque avec du papier sulfurisé",
+        "Cuire pendant 25' et laisser refroidir avant des les enlever"
+      ],
+      "tips": "",
+      "storage": "",
+      "nutrition": "",
+      "tags": [],
+      "author": "Papa",
+      "createdAt": "2026-10-26T12:09:32.055Z",
+      "updatedAt": "2026-10-26T12:09:32.055Z"
     }
   ]
 }

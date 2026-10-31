@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:30:35.719Z",
+  "updatedAt": "2026-10-31T19:33:35.707Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -199,14 +199,19 @@
           "name": "Oeufs"
         },
         {
-          "qty": 1,
-          "unit": "L",
+          "qty": 500,
+          "unit": "ml",
           "name": "de Lait"
         },
         {
           "qty": null,
           "unit": "",
           "name": "Arôme : Rhum, vanille, fleur d'orangers"
+        },
+        {
+          "qty": 3,
+          "unit": "c. à soupe",
+          "name": "Huile neutre"
         }
       ],
       "equipment": [
@@ -218,7 +223,7 @@
       "steps": [
         "Met a chauffer le lait avec le beurre a feu très doux (ne surtout pas faire bouillir)",
         "Mélange la farine et le sucre dans le grand saladier",
-        "Bat en omelette les œufs et l'arôme dans le petit bol",
+        "Battre en omelette les œufs, l huie et l'arôme dans le petit bol",
         "Verse l'omelette dans le grand saladier avec la farine et mélange doucement en incorporant petit à petit la farine qui est sur les bords pour éviter de faire des grumeaux",
         "Verse petit à petit le lait tiède avec le beurre fondue dans la préparation en suivant la même méthode que précédemment",
         "Laisse reposer minimum 1H au frigo",
@@ -230,7 +235,7 @@
       "tags": [],
       "author": "Papa",
       "createdAt": "2026-10-21T16:28:56.340Z",
-      "updatedAt": "2026-10-21T17:55:56.103Z",
+      "updatedAt": "2026-10-31T19:33:35.222Z",
       "photo": "images/crepes-mvibu5jo.jpg"
     },
     {

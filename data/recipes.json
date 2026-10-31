@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:59:53.008Z",
+  "updatedAt": "2026-10-31T20:01:51.234Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -399,7 +399,7 @@
       "id": "crepes-au-sarazin-mvwsot17",
       "title": "Crêpes au Sarazin",
       "category": "sale",
-      "type": "Plat",
+      "type": "Pain & pâtes",
       "description": "",
       "servings": 25,
       "servingsLabel": "crêpes",
@@ -466,7 +466,7 @@
       "tags": [],
       "author": "Papa",
       "createdAt": "2026-10-31T19:29:26.778Z",
-      "updatedAt": "2026-10-31T19:30:33.704Z",
+      "updatedAt": "2026-10-31T20:01:49.075Z",
       "photo": "images/crepes-au-sarazin-mvwsot17.jpg"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:47:21.654Z",
+  "updatedAt": "2026-10-31T19:58:21.478Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -545,6 +545,66 @@
       "createdAt": "2026-10-31T19:46:18.235Z",
       "updatedAt": "2026-10-31T19:47:19.916Z",
       "photo": "images/pate-a-pizzas-mvwtahh7.jpg"
+    },
+    {
+      "id": "pate-sucree-mvwtpxj4",
+      "title": "Pâte sucrée",
+      "category": "sucre",
+      "type": "Pain & pâtes",
+      "description": "Base poir toute les tartes",
+      "servings": 1,
+      "servingsLabel": "Pâte",
+      "prepMin": 5,
+      "cookMin": 15,
+      "restMin": 30,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "180",
+      "ingredients": [
+        {
+          "qty": 200,
+          "unit": "g",
+          "name": "Farine"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "Sucre"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "Eurre"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "name": "Oeuf"
+        }
+      ],
+      "equipment": [
+        "Saldier. Poid( billes.d argille ou lentilles)",
+        "rouleau a pâtisserie",
+        "papier cuisson"
+      ],
+      "steps": [
+        "Mélange tout les ingrédients dans ton bol jusqu'à obtenir une boule homogène",
+        "⚠️Ne la travaille pas trop quand elle a la bonne consistance",
+        "Filme là et met la au frigo pendant 30'",
+        "Farine ton plan de travail et étale ta pâte jusqu'à obtenir la dimension et epaisseur souhaitée",
+        "Met là dans ton plat à tarte et pique là. Puis recouvre là de papier cuisson et met y du poids ( billes d argilles ou lentilles)",
+        "Met à cuire dans ton four pensant 10'",
+        "Enlève le poid et le papier cuisson et laisse finir de cuire à blanc que ta pâte est une jolie couleur dorée",
+        "Laisse refroidir à la sortie du four"
+      ],
+      "tips": "",
+      "storage": "",
+      "nutrition": "",
+      "tags": [],
+      "author": "Papa",
+      "createdAt": "2026-10-31T19:58:18.878Z",
+      "updatedAt": "2026-10-31T19:58:18.878Z",
+      "photo": "images/pate-sucree-mvwtpxj4.jpg"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:29:27.449Z",
+  "updatedAt": "2026-10-31T19:30:35.719Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -461,7 +461,8 @@
       "tags": [],
       "author": "Papa",
       "createdAt": "2026-10-31T19:29:26.778Z",
-      "updatedAt": "2026-10-31T19:29:26.778Z"
+      "updatedAt": "2026-10-31T19:30:33.704Z",
+      "photo": "images/crepes-au-sarazin-mvwsot17.jpg"
     }
   ]
 }

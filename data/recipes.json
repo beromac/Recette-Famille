@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T12:10:58.826Z",
+  "updatedAt": "2026-10-31T19:29:27.449Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -389,6 +389,79 @@
       "createdAt": "2026-10-26T12:09:32.055Z",
       "updatedAt": "2026-10-26T12:10:56.424Z",
       "photo": "images/cookies-mvp7rteg.jpg"
+    },
+    {
+      "id": "crepes-au-sarazin-mvwsot17",
+      "title": "Crêpes au Sarazin",
+      "category": "sale",
+      "type": "Plat",
+      "description": "",
+      "servings": 25,
+      "servingsLabel": "crêpes",
+      "prepMin": 10,
+      "cookMin": 5,
+      "restMin": 60,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "",
+      "ingredients": [
+        {
+          "qty": 500,
+          "unit": "g",
+          "name": "Sarazin"
+        },
+        {
+          "qty": 2,
+          "unit": "c. à soupe",
+          "name": "Farine"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à café",
+          "name": "Sel"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "name": "Oeuf"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à soupe",
+          "name": "Huile neutre"
+        },
+        {
+          "qty": 1,
+          "unit": "L",
+          "name": "Eau"
+        },
+        {
+          "qty": 25,
+          "unit": "cl",
+          "name": "Lait"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à soupe",
+          "name": "Miel"
+        }
+      ],
+      "equipment": [
+        "Saladie",
+        "fouet"
+      ],
+      "steps": [
+        "Met dans un saladier tout les ingrédients sauf le lait et fouette jusqu'à obtenir une pâte lise",
+        "Incorpore le lait et fouette la pâte",
+        "Laisse reposer la pâte avant de lancer la cuisson"
+      ],
+      "tips": "Beurre la poêle à chaque fois que tu fais cuire une crêpe",
+      "storage": "",
+      "nutrition": "",
+      "tags": [],
+      "author": "Papa",
+      "createdAt": "2026-10-31T19:29:26.778Z",
+      "updatedAt": "2026-10-31T19:29:26.778Z"
     }
   ]
 }

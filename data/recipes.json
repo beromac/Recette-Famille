@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:33:35.707Z",
+  "updatedAt": "2026-10-31T19:46:20.876Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -468,6 +468,83 @@
       "createdAt": "2026-10-31T19:29:26.778Z",
       "updatedAt": "2026-10-31T19:30:33.704Z",
       "photo": "images/crepes-au-sarazin-mvwsot17.jpg"
+    },
+    {
+      "id": "pate-a-pizzas-mvwtahh7",
+      "title": "Pâte a pizzas",
+      "category": "sale",
+      "type": "Plat",
+      "description": "",
+      "servings": 5,
+      "servingsLabel": "Personnes",
+      "prepMin": 20,
+      "cookMin": 15,
+      "restMin": 60,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "200",
+      "ingredients": [
+        {
+          "qty": 600,
+          "unit": "g",
+          "name": "Farine"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "name": "Eau"
+        },
+        {
+          "qty": 150,
+          "unit": "ml",
+          "name": "Lait"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "name": "Oeuf"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à soupe",
+          "name": "Huile d olive"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à café",
+          "name": "Sel"
+        },
+        {
+          "qty": 1,
+          "unit": "sachet",
+          "name": "Levure boulangère"
+        }
+      ],
+      "equipment": [
+        "Robot",
+        "bol",
+        "fouet"
+      ],
+      "steps": [
+        "Mettre le lait et le sucre à tiédir. ⚠️ne pas depasser 40°",
+        "Rajouter la levure, mélanger et la laisser s activer",
+        "Mettre au fond de la cuve du robot le sel",
+        "Y rajouter tout les autre ingrédients",
+        "Mettre le lait avec la levure activée",
+        "Battre au crochet pendant 10'",
+        "Mettre soit le four à chauffer à 40-50° avec de l eau au fond de lèche frites ou mettre un bol d eau dans le micro onde pendant les 10' à chauffer",
+        "Au bout des 10' mettre le bol avec la pâte à pousser dans le four ou le micro onde jusqu'à ce qu'elle arrive en haut du bol",
+        "Tapper la pâte pour qu elle dégonfle et en faire 5 boules identiques",
+        "Applatir la pâte, la garnir et faire cuire à four chaud 200°"
+      ],
+      "tips": "",
+      "storage": "",
+      "nutrition": "",
+      "tags": [],
+      "author": "",
+      "createdAt": "2026-10-31T19:46:18.235Z",
+      "updatedAt": "2026-10-31T19:46:18.235Z",
+      "photo": "images/pate-a-pizzas-mvwtahh7.jpg"
     }
   ]
 }

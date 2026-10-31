@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:46:20.876Z",
+  "updatedAt": "2026-10-31T19:47:21.654Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -541,9 +541,9 @@
       "storage": "",
       "nutrition": "",
       "tags": [],
-      "author": "",
+      "author": "Papa",
       "createdAt": "2026-10-31T19:46:18.235Z",
-      "updatedAt": "2026-10-31T19:46:18.235Z",
+      "updatedAt": "2026-10-31T19:47:19.916Z",
       "photo": "images/pate-a-pizzas-mvwtahh7.jpg"
     }
   ]

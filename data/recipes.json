@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T20:01:51.234Z",
+  "updatedAt": "2026-11-01T10:28:23.586Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -574,7 +574,7 @@
         {
           "qty": 100,
           "unit": "g",
-          "name": "Eurre"
+          "name": "Beurre"
         },
         {
           "qty": 1,
@@ -583,18 +583,18 @@
         }
       ],
       "equipment": [
-        "Saldier. Poid( billes.d argille ou lentilles)",
+        "Saldier. Poids( billes.d argille ou lentilles)",
         "rouleau a pâtisserie",
         "papier cuisson"
       ],
       "steps": [
         "Mélange tout les ingrédients dans ton bol jusqu'à obtenir une boule homogène",
         "⚠️Ne la travaille pas trop quand elle a la bonne consistance",
-        "Filme là et met la au frigo pendant 30'",
+        "Filme la et met la au frigo pendant 30'",
         "Farine ton plan de travail et étale ta pâte jusqu'à obtenir la dimension et epaisseur souhaitée",
-        "Met là dans ton plat à tarte et pique là. Puis recouvre là de papier cuisson et met y du poids ( billes d argilles ou lentilles)",
-        "Met à cuire dans ton four pensant 10'",
-        "Enlève le poid et le papier cuisson et laisse finir de cuire à blanc que ta pâte est une jolie couleur dorée",
+        "Met la dans ton plat à tarte et pique la. Puis recouvre la de papier cuisson et met y du poids ( billes d argilles ou lentilles)",
+        "Met à cuire dans ton four pendant 10'",
+        "Enlève le poids et le papier cuisson et laisse finir de cuire à blanc que ta pâte est une jolie couleur dorée",
         "Laisse refroidir à la sortie du four"
       ],
       "tips": "",
@@ -603,7 +603,7 @@
       "tags": [],
       "author": "Papa",
       "createdAt": "2026-10-31T19:58:18.878Z",
-      "updatedAt": "2026-10-31T19:58:18.878Z",
+      "updatedAt": "2026-11-01T10:28:23.011Z",
       "photo": "images/pate-sucree-mvwtpxj4.jpg"
     }
   ]

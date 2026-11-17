@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T10:28:23.586Z",
+  "updatedAt": "2026-11-17T15:23:44.883Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -605,6 +605,101 @@
       "createdAt": "2026-10-31T19:58:18.878Z",
       "updatedAt": "2026-11-01T10:28:23.011Z",
       "photo": "images/pate-sucree-mvwtpxj4.jpg"
+    },
+    {
+      "id": "cake-aux-citrons-mwkue9ai",
+      "title": "CAKE aux citrons",
+      "category": "sucre",
+      "type": "Dessert",
+      "description": "texture ultra-moelleuse grâce à l'ajout de crème fleurette",
+      "servings": 8,
+      "servingsLabel": "Personnes",
+      "prepMin": 10,
+      "cookMin": 60,
+      "restMin": 0,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "180 °C-150 °C",
+      "ingredients": [
+        {
+          "section": "Pour la pâte"
+        },
+        {
+          "qty": 190,
+          "unit": "g",
+          "name": "Farine"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "Sucre roux"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "name": "Beurre fondu tiède"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "Crème fleurette 30%"
+        },
+        {
+          "qty": 4,
+          "unit": "",
+          "name": "Oeufs"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "name": "Citrons bio en Zestes"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à soupe",
+          "name": "Graines de pavots"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à café",
+          "name": "Bicarbonate alimentaire"
+        },
+        {
+          "section": "Pour le glaçage"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "Sucre glace"
+        },
+        {
+          "qty": 30,
+          "unit": "ml",
+          "name": "Jus de citrons"
+        }
+      ],
+      "equipment": [
+        "Salafier",
+        "fouet",
+        "moule à cake 22-24 cm"
+      ],
+      "steps": [
+        "Préchauffez votre four à 180 °C (chaleur tournante si possible). Beurrez et farinez un moule à cake",
+        "La base mousseuse : Dans un grand saladier, fouettez énergiquement les œufs et le sucre au batteur électrique jusqu'à ce que le mélange blanchisse, double de volume et devienne très onctueux",
+        "Incorporez délicatement les zestes fins des deux citrons, et la crème fleurette. Mélangez bien",
+        "Ajoutez progressivement le mélange farine et bicarbonate (ou 1/2 sachet de levure chimique)préalablement tamisé. Mélangez doucement à la spatule ou au fouet manuel sans trop travailler la pâte",
+        "Versez les graines de pavot puis le beurre fondu tiédi. Mélangez juste assez pour obtenir une pâte homogène et brillante",
+        "L'astuce de cuisson (en deux temps) : Versez l'appareil dans le moule. Enfournez d'abord pendant 10 minutes à 180 °C, puis baissez la température à 150 °C et laissez cuire environ 50 minutes de plus.",
+        "Le glaçage : Pendant que le cake tiédit sur une grille, mélangez le sucre glace et le jus de citron. Versez ce glaçage sur le cake encore légèrement chaud pour qu'il fige en refroidissant."
+      ],
+      "tips": "",
+      "storage": "",
+      "nutrition": "",
+      "tags": [],
+      "author": "",
+      "createdAt": "2026-11-17T15:23:42.086Z",
+      "updatedAt": "2026-11-17T15:23:42.086Z",
+      "photo": "images/cake-aux-citrons-mwkue9ai.jpg"
     }
   ]
 }

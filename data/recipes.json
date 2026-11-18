@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T15:23:44.883Z",
+  "updatedAt": "2026-11-18T20:28:51.964Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -700,6 +700,86 @@
       "createdAt": "2026-11-17T15:23:42.086Z",
       "updatedAt": "2026-11-17T15:23:42.086Z",
       "photo": "images/cake-aux-citrons-mwkue9ai.jpg"
+    },
+    {
+      "id": "cookies-mwmkqfqb",
+      "title": "COOKIES",
+      "category": "sucre",
+      "type": "Goûter",
+      "description": "",
+      "servings": 18,
+      "servingsLabel": "Gâteaux",
+      "prepMin": 10,
+      "cookMin": 10,
+      "restMin": 10,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "180 °C",
+      "ingredients": [
+        {
+          "qty": 95,
+          "unit": "g",
+          "name": "Beurre"
+        },
+        {
+          "qty": 60,
+          "unit": "g",
+          "name": "Sucre roux"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "name": "Sucre blanc"
+        },
+        {
+          "qty": 225,
+          "unit": "g",
+          "name": "Farine"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à café",
+          "name": "Bicarbonate alimentaire"
+        },
+        {
+          "qty": 1,
+          "unit": "",
+          "name": "Oeuf"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à soupe",
+          "name": "Vanille"
+        },
+        {
+          "qty": 180,
+          "unit": "g",
+          "name": "Chocolat"
+        }
+      ],
+      "equipment": [
+        "Saldier",
+        "fouet",
+        "plaques",
+        "papier sulfurisé"
+      ],
+      "steps": [
+        "Crémer le beurre et les sucres. Mélangez le beurre ramolli avec la cassonade, le sucre blanc et la vanille jusqu'à obtenir une texture crémeuse.",
+        "Incorporer l'œuf. Ajoutez l'œuf entier et fouettez brièvement pour homogénéiser la préparation",
+        "Ajouter les ingrédients secs. Versez la farine, la levure et le sel. Mélangez à la spatule sans trop travailler la pâte.",
+        "Intégrer le chocolat. Ajoutez les morceaux de chocolat noir et répartissez-les uniformément dans la pâte.",
+        "Laisser reposer au frais. Formez des boules de pâte de taille égale et placez-les au réfrigérateur pendant au moins 30 minutes. Ce temps de repos empêche les cookies de trop s'étaler à la cuisson",
+        "Cuire rapidement. Enfournez sur une plaque recouverte de papier cuisson pendant 9 à 11 minutes à 180 °C. Sortez-les dès que les bords dorent, même si le centre semble encore cru.",
+        "Laisser refroidir. Laissez les cookies tiédir 10 minutes sur la plaque avant de les manipuler. Ils vont durcir légèrement en refroidissant tout en gardant un cœur fondant."
+      ],
+      "tips": "Version gourmande. Remplacez une partie du chocolat noir par du chocolat au lait et ajoutez des noix de pécan ou des noisettes torréfiées.\nStyle New-Yorkais. Formez des boules plus grosses (environ 80 g à 100 g) et augmentez le temps de cuisson de 2 à 3 minutes.",
+      "storage": "5 jours dans une boite hermétique",
+      "nutrition": "",
+      "tags": [],
+      "author": "",
+      "createdAt": "2026-11-18T20:28:46.492Z",
+      "updatedAt": "2026-11-18T20:28:46.492Z",
+      "photo": "images/cookies-mwmkqfqb.jpg"
     }
   ]
 }

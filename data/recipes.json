@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T20:28:51.964Z",
+  "updatedAt": "2026-11-21T15:31:11.897Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -780,6 +780,84 @@
       "createdAt": "2026-11-18T20:28:46.492Z",
       "updatedAt": "2026-11-18T20:28:46.492Z",
       "photo": "images/cookies-mwmkqfqb.jpg"
+    },
+    {
+      "id": "clafoutis-mwqkf790",
+      "title": "CLAFOUTIS",
+      "category": "sucre",
+      "type": "Gâteau",
+      "description": "",
+      "servings": 12,
+      "servingsLabel": "parts",
+      "prepMin": 10,
+      "cookMin": 35,
+      "restMin": 20,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "180 °C",
+      "ingredients": [
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "Farine"
+        },
+        {
+          "qty": 4,
+          "unit": "",
+          "name": "Oeufs"
+        },
+        {
+          "qty": 50,
+          "unit": "g",
+          "name": "Sucre"
+        },
+        {
+          "qty": 300,
+          "unit": "ml",
+          "name": "Lait"
+        },
+        {
+          "qty": 40,
+          "unit": "g",
+          "name": "Beurre"
+        },
+        {
+          "qty": 2,
+          "unit": "sachet",
+          "name": "Sucre vanillé"
+        },
+        {
+          "qty": 600,
+          "unit": "g",
+          "name": "Fruits"
+        },
+        {
+          "qty": null,
+          "unit": "",
+          "name": "Sucre cassonade"
+        }
+      ],
+      "equipment": [
+        "Saladier",
+        "batteur",
+        "moule rond"
+      ],
+      "steps": [
+        "Préparer le moule. Préchauffez votre four à 180 °C (chaleur traditionnelle). Beurrez généreusement un plat en céramique ou un moule à manqué (environ 24 cm de diamètre), puis saupoudrez le fond et les bords de cassonade pour créer une fine croûte caramélisée.",
+        "Blanchir les œufs. Dans un grand saladier, fouettez les œufs avec le sucre et les graines de vanille jusqu'à ce que le mélange blanchisse et devienne légèrement mousseux",
+        "Incorporer les poudres. Ajoutez la farine et la pincée de sel en pluie tout en mélangeant au fouet pour obtenir une pâte bien lisse.",
+        "Détendre l'appareil. Versez progressivement le lait entier, la crème liquide et le beurre fondu tiédi. Mélangez jusqu'à obtenir une pâte fluide proche d'une pâte à crêpes épaisse.",
+        "Monter et enfourner. Disposez les cerises en une seule couche au fond du moule. Versez délicatement l'appareil par-dessus. Enfournez pour 35 à 40 minutes : les bords doivent être dorés et gonflés, tandis que le centre reste légèrement tremblotant.",
+        "Laisser tiédir. Laissez reposer au moins 20 minutes hors du four avant de déguster tiède ou froid (saupoudré d'un voile de sucre glace)."
+      ],
+      "tips": "• Garder les noyaux. La tradition limousine recommande de ne pas dénoyauter les cerises. Le noyau empêche le jus acide de se répandre dans la pâte pendant la cuisson (ce qui la rendrait liquide) et libère un léger parfum d'amande.\n• Remplacer une partie du lait par de la crème. Le 100 % lait donne un résultat plus compact et caoutchouteux ; l'ajout de crème liquide entière garantit un cœur fondant façon flan pâtissier.\n• Ne pas trop le cuire. Le clafoutis continue de figer en refroidissant. Sortez-le du four dès que la lame d'un couteau plantée au centre ressort propre mais encore humide.",
+      "storage": "",
+      "nutrition": "",
+      "tags": [],
+      "author": "Papa",
+      "createdAt": "2026-11-21T15:31:06.991Z",
+      "updatedAt": "2026-11-21T15:31:06.991Z",
+      "photo": "images/clafoutis-mwqkf790.jpg"
     }
   ]
 }

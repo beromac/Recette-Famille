@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T15:01:34.322Z",
+  "updatedAt": "2026-11-22T15:03:46.728Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -316,7 +316,7 @@
     },
     {
       "id": "cookies-mvp7rteg",
-      "title": "Cookies",
+      "title": "Cookies allégés",
       "category": "sucre",
       "type": "Gâteau",
       "description": "",
@@ -392,7 +392,7 @@
       "tags": [],
       "author": "Papa",
       "createdAt": "2026-10-26T12:09:32.055Z",
-      "updatedAt": "2026-10-26T12:10:56.424Z",
+      "updatedAt": "2026-11-22T15:03:44.132Z",
       "photo": "images/cookies-mvp7rteg.jpg"
     },
     {

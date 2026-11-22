@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T15:31:11.897Z",
+  "updatedAt": "2026-11-22T14:59:09.666Z",
   "recipes": [
     {
       "id": "crepes-exemple",
@@ -858,6 +858,77 @@
       "createdAt": "2026-11-21T15:31:06.991Z",
       "updatedAt": "2026-11-21T15:31:06.991Z",
       "photo": "images/clafoutis-mwqkf790.jpg"
+    },
+    {
+      "id": "craqueles-au-citrons-mwrypxoh",
+      "title": "Craquelés au citrons",
+      "category": "sucre",
+      "type": "Goûter",
+      "description": "",
+      "servings": 20,
+      "servingsLabel": "Gâteaux",
+      "prepMin": 120,
+      "cookMin": 12,
+      "restMin": 2,
+      "difficulty": 1,
+      "cost": 1,
+      "oven": "180 °C",
+      "ingredients": [
+        {
+          "qty": 250,
+          "unit": "g",
+          "name": "Farine"
+        },
+        {
+          "qty": 1,
+          "unit": "c. à café",
+          "name": "Bicarbonate de cuisine"
+        },
+        {
+          "qty": 95,
+          "unit": "g",
+          "name": "Beurre"
+        },
+        {
+          "qty": 100,
+          "unit": "g",
+          "name": "Sucre"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "name": "Oeufs"
+        },
+        {
+          "qty": 2,
+          "unit": "",
+          "name": "Citrons bio en Zestes"
+        },
+        {
+          "qty": 30,
+          "unit": "ml",
+          "name": "Jus de citron"
+        }
+      ],
+      "equipment": [
+        "Saladier",
+        "fouet",
+        "papier sulfurisé"
+      ],
+      "steps": [
+        "Mélangez la base. Fouettez le beurre mou avec le sucre et les zestes de citron jusqu'à obtenir une texture crémeuse. Ajoutez les œufs un par un puis versez le jus de citron filtré.",
+        "Incorporez les poudres. Ajoutez la farine et la levure chimique en mélangeant rapidement à la spatule sans trop travailler la pâte.",
+        "Laissez reposer au froid. Filmez la pâte collante et placez-la au réfrigérateur pendant 1 à 2 heures pour qu'elle durcisse et soit facile à façonner, ou 30min au congélateur.",
+        "Façonnez et enrobez. Formez des boules d'environ 25 à 30 g. Roulez chaque boule dans le sucre semoule puis généreusement dans le sucre glace.",
+        "Enfournez rapidement. Disposez les boules espacées sur une plaque recouverte de papier cuisson. Faites cuire 10 à 12 minutes à 180 °C"
+      ],
+      "tips": "Surveillez la cuisson. Sortez les biscuits du four dès que les bords commencent à peine à dorer, même si le centre semble encore très mou. Ils vont figer en refroidissant sur la plaque.\nAjoutez un cœur fondant. Vous pouvez réaliser une variante gourmande en creusant un petit puits au centre des biscuits avant cuisson pour les garnir de lemon curd maison.",
+      "storage": "3 jours au sec",
+      "nutrition": "",
+      "tags": [],
+      "author": "",
+      "createdAt": "2026-11-22T14:59:08.608Z",
+      "updatedAt": "2026-11-22T14:59:08.608Z"
     }
   ]
 }
